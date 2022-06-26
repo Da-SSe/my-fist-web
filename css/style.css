@@ -6,7 +6,7 @@ a {
     text-decoration: none;
 }
 .list {
-    color: darkblue;
+    color: coral; 
 }
 h1 {
     font-size: 55px;
@@ -24,9 +24,21 @@ ol {
     padding: 20px;
     list-style: none;
 }
+#menu {
+    background-color: darkslateblue;
+    padding: 10px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+#menu a {
+    color: aliceblue;
+    border-color: aliceblue;
+    border-right: 1px solid;
+    padding-right: 5px;
+}
 #grid {
     display: grid;
-    grid-template-columns: 230px 1fr;
+    grid-template-columns: 230px 1fr 230px;
 }
 #grid ol {
     padding-left: 35px;

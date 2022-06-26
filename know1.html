@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>롯데 자이언츠</title>
+        <meta charset="utf-8">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1><a href="index.html">DaSSe</a></h1>
+        <div id="menu">
+            <a href="./index.html">홈</a>
+            <a href="./know1.html">지식</a>
+            <a>일상</a>
+            <a>게임</a>
+            </a>
+        </div>
+        <div id="grid">
+                <ol>  
+                    <li><a href="know1.html" class="list">롯데 자이언츠</a></li>
+                    <li><a href="know2.html" class="list">Tottenham</a></li>
+                    <li><a href="know3.html" class="list">天元突破グレンラガン</a></li>
+                    <li><a href="know4.html" class="list">北京国安足球俱乐部</a></li>
+                </ol>
+            <div id="article">   
+                <h2>롯데 자이언츠</h2>
+                <p>
+                    대한민국의 프로야구단. 연고지는 <strong><u>부산광역시</u></strong>이며, 
+                    홈구장은 동래구 사직동에 위치한 사직 야구장이다.
+                </p>
+                <p>
+                    삼성 라이온즈와 함께 
+                    <a href="http://www.giantsclub.com/html/" target="_blank" title="롯데 자이언츠 공식 홈페이지">롯데 자이언츠</a>는 
+                    원년부터 연고지, 팀명, 모기업이 바뀌지 않으며 현재까지 이어져온 유이한 팀이며 
+                    실업야구 시절을 포함한다면 <strong>리그보다 오랜 역사를 자랑하는 유일한 팀이다.</strong>
+                    2020년 5월 6일로 창단 45주년을 맞았다.
+                </p>
+                <p>
+                    팀을 상징하는 노래는 <u>돌아와요 부산항에</u>.
+                </p>
+                <p>
+                    <img src="baseball.jpg" width="30%">
+                </p>
+            </div>
+        </div>    
+    </body>
+    <script>
+        //현재 주소와 링크 주소를 비교해서 같으면 lisg 색변경
+        const href = window.location.href;
+        var listid = document.getElementsByClassName('list');
+
+        for ( let tmp of listid) {
+            if (tmp.href === href ){
+                tmp.style = "color: darkgreen; text-decoration: underline;";
+            }
+        }
+        
+    </script>
+</html>
+
+
+
+
