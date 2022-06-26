@@ -27,6 +27,16 @@
             </div>
         </div>
     </body>
+    <script>
+        const href = window.location.href;
+        var listid = document.getElementsByClassName('list');
+
+        for ( let tmp of listid) {
+            if (tmp.href === href ){
+                tmp.style = "color: darkgreen; text-decoration: underline;";
+            }
+        }
+    </script>
 </html>
 
 
