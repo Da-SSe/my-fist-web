@@ -9,8 +9,8 @@
         <h1><a href="index.html">DaSSe</a></h1>
         <div id="menu">
             <a href="./index.html">홈</a>
-            <a href="./know1.html">지식</a>
-            <a>일상</a>
+            <a href="./know1.html"><span style="color: plum;">지식</span></a>
+            <a href="./life1.html">일상</a>
             <a>게임</a>
             </a>
         </div>
@@ -42,19 +42,19 @@
                 </p>
             </div>
         </div>    
-    </body>
-    <script>
-        //현재 주소와 링크 주소를 비교해서 같으면 lisg 색변경
-        const href = window.location.href;
-        var listid = document.getElementsByClassName('list');
-
-        for ( let tmp of listid) {
-            if (tmp.href === href ){
-                tmp.style = "color: darkgreen; text-decoration: underline;";
+        <script>
+            //현재 주소와 링크 주소를 비교해서 같으면 lisg 색변경
+            const href = window.location.href;
+            var listid = document.getElementsByClassName('list');
+    
+            for ( let tmp of listid) {
+                if (tmp.href === href ){
+                    tmp.style = "color: darkgreen; text-decoration: underline;";
+                }
             }
-        }
-        
-    </script>
+            
+        </script>
+    </body>
 </html>
 
 
